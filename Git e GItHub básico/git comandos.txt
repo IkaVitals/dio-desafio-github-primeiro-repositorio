@@ -1,0 +1,87 @@
+Comandos básicos do Git:
+
+Mudar de pastas
+Listar as pastas
+Criar pastas/arquivos
+Deletar pastas/arquivos
+
+Windows
+cd / (navegar em um local especifico)
+cd + nome da pasta (vai para dentro da pasta)
+cd .. (retroceder)
+clear (limpar o terminal)
+TAB do teclado (autocompletar)
+dir (Listar as pastas)
+mkdir (criar pasta)
+echo (printa de volta o que você escreveu)
+> (simbolo de mais é um redirecionador de fluxo para um arquivo)
+del (deletar tudo que tem dentro da pasta)
+rmdir (deletar tudo)
+
+SHA1 (openss1 sha1)
+
+Algoritmo de incriptação, gera um conjunto de caracteres de 40 digitos
+
+BLOBS (Guarda metadados do git e o sha1)
+TREES (Contém metadados, mas armazena BLOBS e guarda o nome do arquivo. Além de poder apontar para outras TREES)
+COMMITS (Aponta para uma TREE, para o ultimo COMMIT realizado antes dele e aponta para um autor e uma mensagem. COMMITS também tem SHA1, se você alterar uma BLOB, altera os metadados da TREE que pode acabar que afetando para onde o seu COMMIT aponta)
+
+*Chaves SSH e Tokens (GITHUB)
+
+Chave SSH 
+
+Conexão segura com chaves incriptadas
+
+#comandos para ciar cahves SHH
+
+shh-keygen -t ed25519 -c "e-mail seu"
+
+navegar até a pasta: cd /c/Users/NOME/ .ssh/
+
+ls
+
+cat + chave.pub
+
+Para achar chaves depois de criadas: cd
+         cd .ssh
+         ls
+
+
+*Comandos básicos
+
+mkdir (criar pastas)
+git init (iniciar uma ação em git e inicia um repositório)
+ls -a (ver pasta oculta)
+git config --global user. (email ou name) para criar um autor que ficará no commit
+Tracked
+Staged (como se fosse um backstage, são arquivos que estão se preparando pra entrar em algum tipo de agrupamento) no caso fazer parte de um commit.
+Git satatus 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
